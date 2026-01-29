@@ -15,7 +15,7 @@
               "state": {
                 "file": "index.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "index"
@@ -184,5 +184,11 @@
     }
   },
   "active": "9251dc73485cb404",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Traingle splatting.md",
+    "index.md",
+    "Maths/Multivariate Normal Distribution.md",
+    "Maths/3D ----> 2D view in computer graphics.md",
+    "Gausian Splatting.md"
+  ]
 }
