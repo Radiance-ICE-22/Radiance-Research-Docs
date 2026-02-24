@@ -1,18 +1,146 @@
-@misc{shojaee2025illusionthinkingunderstandingstrengths,
-      title={The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity},
-      author={Parshin Shojaee and Iman Mirzadeh and Keivan Alizadeh and Maxwell Horton and Samy Bengio and Mehrdad Farajtabar},
-      year={2025},
-      eprint={2506.06941},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2506.06941},
+@article{
+  title = {Back to {{Newton}}'s {{Laws}}: {{Learning Vision-based Agile Flight}} via {{Differentiable Physics}}},
+  shorttitle = {Back to {{Newton}}'s {{Laws}}},
+  author = {Zhang, Yuang and Hu, Yu and Song, Yunlong and Zou, Danping and Lin, Weiyao},
+  year = 2025,
+  month = jun,
+  journal = {Nature Machine Intelligence},
+  volume = {7},
+  number = {6},
+  eprint = {2407.10648},
+  primaryclass = {cs},
+  pages = {954--966},
+  issn = {2522-5839},
+  doi = {10.1038/s42256-025-01048-0},
+  urldate = {2026-02-16},
+  abstract = {Swarm navigation in cluttered environments is a grand challenge in robotics. This work combines deep learning with first-principle physics through differentiable simulation to enable autonomous navigation of multiple aerial robots through complex environments at high speed. Our approach optimizes a neural network control policy directly by backpropagating loss gradients through the robot simulation using a simple point-mass physics model and a depth rendering engine. Despite this simplicity, our method excels in challenging tasks for both multi-agent and single-agent applications with zeroshot sim-to-real transfer. In multi-agent scenarios, our system demonstrates self-organized behavior, enabling autonomous coordination without communication or centralized planning---an achievement not seen in existing traditional or learningbased methods. In single-agent scenarios, our system achieves a 90\% success rate in navigating through complex environments, significantly surpassing the 60\% success rate of the previous state-of-the-art approach. Our system can operate without state estimation and adapt to dynamic obstacles. In real-world forest environments, it navigates at speeds up to 20 m/s, doubling the speed of previous imitation learning-based solutions. Notably, all these capabilities are deployed on a budget-friendly \$21 computer, costing less than 5\% of a GPU-equipped board used in existing systems. Video demonstrations are available at https://youtu.be/LKg9hJqc2cc.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Robotics},
+  file = {/home/yutharsan/Zotero/storage/4DDAU299/Zhang et al. - 2025 - Back to Newton's Laws Learning Vision-based Agile Flight via Differentiable Physics.pdf}
 }
-@misc{matsuki2024gaussiansplattingslam,
-      title={Gaussian Splatting SLAM},
-      author={Hidenobu Matsuki and Riku Murai and Paul H. J. Kelly and Andrew J. Davison},
-      year={2024},
-      eprint={2312.06741},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2312.06741},
+
+@misc{
+  title = {Splat-{{SLAM}}: {{Globally Optimized RGB-only SLAM}} with {{3D Gaussians}}},
+  shorttitle = {Splat-{{SLAM}}},
+  author = {Sandstr{\"o}m, Erik and Tateno, Keisuke and Oechsle, Michael and Niemeyer, Michael and Gool, Luc Van and Oswald, Martin R. and Tombari, Federico},
+  year = 2024,
+  month = may,
+  number = {arXiv:2405.16544},
+  eprint = {2405.16544},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2405.16544},
+  urldate = {2026-02-16},
+  abstract = {3D Gaussian Splatting has emerged as a powerful representation of geometry and appearance for RGB-only dense Simultaneous Localization and Mapping (SLAM), as it provides a compact dense map representation while enabling efficient and high-quality map rendering. However, existing methods show significantly worse reconstruction quality than competing methods using other 3D representations, e.g. neural points clouds, since they either do not employ global map and pose optimization or make use of monocular depth. In response, we propose the first RGB-only SLAM system with a dense 3D Gaussian map representation that utilizes all benefits of globally optimized tracking by adapting dynamically to keyframe pose and depth updates by actively deforming the 3D Gaussian map. Moreover, we find that refining the depth updates in inaccurate areas with a monocular depth estimator further improves the accuracy of the 3D reconstruction. Our experiments on the Replica, TUM-RGBD, and ScanNet datasets indicate the effectiveness of globally optimized 3D Gaussians, as the approach achieves superior or on par performance with existing RGB-only SLAM methods methods in tracking, mapping and rendering accuracy while yielding small map sizes and fast runtimes. The source code is available at https://github.com/eriksandstroem/Splat-SLAM.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {/home/yutharsan/Zotero/storage/X6H5NULN/Sandström et al. - 2024 - Splat-SLAM Globally Optimized RGB-only SLAM with 3D Gaussians.pdf}
+}
+
+@misc{
+  title = {Splat-{{Nav}}: {{Safe Real-Time Robot Navigation}} in {{Gaussian Splatting Maps}}},
+  shorttitle = {Splat-{{Nav}}},
+  author = {Chen, Timothy and Shorinwa, Ola and Bruno, Joseph and Swann, Aiden and Yu, Javier and Zeng, Weijia and Nagami, Keiko and Dames, Philip and Schwager, Mac},
+  year = 2025,
+  month = jan,
+  number = {arXiv:2403.02751},
+  eprint = {2403.02751},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2403.02751},
+  urldate = {2026-02-16},
+  abstract = {We present Splat-Nav, a real-time robot navigation pipeline for Gaussian Splatting (GSplat) scenes, a powerful new 3D scene representation. Splat-Nav consists of two components: 1) Splat-Plan, a safe planning module, and 2) Splat-Loc, a robust vision-based pose estimation module. Splat-Plan builds a safeby-construction polytope corridor through the map based on mathematically rigorous collision constraints and then constructs a Be\textasciiacute zier curve trajectory through this corridor. Splat-Loc provides real-time recursive state estimates given only an RGB feed from an on-board camera, leveraging the point-cloud representation inherent in GSplat scenes. Working together, these modules give robots the ability to recursively re-plan smooth and safe trajectories to goal locations. Goals can be specified with position coordinates, or with language commands by using a semantic GSplat. We demonstrate improved safety compared to point cloudbased methods in extensive simulation experiments. In a total of 126 hardware flights, we demonstrate equivalent safety and speed compared to motion capture and visual odometry, but without a manual frame alignment required by those methods. We show online re-planning at more than 2 Hz and pose estimation at about 25 Hz, an order of magnitude faster than Neural Radiance Field (NeRF)-based navigation methods, thereby enabling real-time navigation. We provide experiment videos on our project page at https://chengine.github.io/splatnav/. Our codebase and ROS nodes can be found at https://github.com/chengine/splatnav.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Robotics},
+  file = {/home/yutharsan/Zotero/storage/EX87AMH4/Chen et al. - 2025 - Splat-Nav Safe Real-Time Robot Navigation in Gaussian Splatting Maps.pdf}
+}
+
+@article{
+  title = {{{3D Gaussian}} as a {{New Era}}: {{A Survey}}},
+  shorttitle = {{{3D Gaussian}} as a {{New Era}}},
+  author = {Fei, Ben and Xu, Jingyi and Zhang, Rui and Zhou, Qingyuan and Yang, Weidong and He, Ying},
+  year = 2025,
+  month = aug,
+  journal = {IEEE Transactions on Visualization and Computer Graphics},
+  volume = {31},
+  number = {8},
+  eprint = {2402.07181},
+  primaryclass = {cs},
+  pages = {4429--4449},
+  issn = {1077-2626, 1941-0506, 2160-9306},
+  doi = {10.1109/TVCG.2024.3397828},
+  urldate = {2026-02-16},
+  abstract = {3D Gaussian Splatting (3D-GS) has emerged as a significant advancement in the field of Computer Graphics, offering explicit scene representation and novel view synthesis without the reliance on neural networks, such as Neural Radiance Fields (NeRF). This technique has found diverse applications in areas such as robotics, urban mapping, autonomous navigation, and virtual reality/augmented reality, just name a few. Given the growing popularity and expanding research in 3D Gaussian Splatting, this paper presents a comprehensive survey of relevant papers from the past year. We organize the survey into taxonomies based on characteristics and applications, providing an introduction to the theoretical underpinnings of 3D Gaussian Splatting. Our goal through this survey is to acquaint new researchers with 3D Gaussian Splatting, serve as a valuable reference for seminal works in the field, and inspire future research directions, as discussed in our concluding section.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Graphics},
+  file = {/home/yutharsan/Zotero/storage/7T64EN9V/Fei et al. - 2025 - 3D Gaussian as a New Era A Survey.pdf}
+}
+
+@misc{
+  title = {A {{Survey}} on {{3D Gaussian Splatting}}},
+  author = {Chen, Guikun and Wang, Wenguan},
+  year = 2025,
+  month = oct,
+  number = {arXiv:2401.03890},
+  eprint = {2401.03890},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2401.03890},
+  urldate = {2026-02-16},
+  abstract = {3D Gaussian splatting (GS) has emerged as a transformative technique in radiance fields. Unlike mainstream implicit neural models, 3D GS uses millions of learnable 3D Gaussians for an explicit scene representation. Paired with a differentiable rendering algorithm, this approach achieves real-time rendering and unprecedented editability, making it a potential game-changer for 3D reconstruction and representation. In the present paper, we provide the first systematic overview of the recent developments and critical contributions in 3D GS. We begin with a detailed exploration of the underlying principles and the driving forces behind the emergence of 3D GS, laying the groundwork for understanding its significance. A focal point of our discussion is the practical applicability of 3D GS. By enabling unprecedented rendering speed, 3D GS opens up a plethora of applications, ranging from virtual reality to interactive media and beyond. This is complemented by a comparative analysis of leading 3D GS models, evaluated across various benchmark tasks to highlight their performance and practical utility. The survey concludes by identifying current challenges and suggesting potential avenues for future research. Through this survey, we aim to provide a valuable resource for both newcomers and seasoned researchers, fostering further exploration and advancement in explicit radiance field.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Graphics,Computer Science - Multimedia},
+  file = {/home/yutharsan/Zotero/storage/GGCNGTQ7/Chen and Wang - 2025 - A Survey on 3D Gaussian Splatting.pdf}
+}
+
+@misc{
+  title = {Optimizing {{3D Gaussian Splattering}} for {{Mobile GPUs}}},
+  author = {Sanim, Md Musfiqur Rahman and Shu, Zhihao and Afsharmanesh, Bahram and Mirian, AmirAli and Guan, Jiexiong and Niu, Wei and Ren, Bin and Agrawal, Gagan},
+  year = 2025,
+  month = nov,
+  number = {arXiv:2511.16298},
+  eprint = {2511.16298},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2511.16298},
+  urldate = {2026-02-16},
+  abstract = {Image-based 3D scene reconstruction, which transforms multi-view images into a structured 3D representation of the surrounding environment, is a common task across many modern applications. 3D Gaussian Splatting (3DGS) is a new paradigm to address this problem and offers considerable efficiency as compared to the previous methods. Motivated by this, and considering various benefits of mobile device deployment (data privacy, operating without internet connectivity, and potentially faster responses), this paper develops Texture3dgs, an optimized mapping of 3DGS for a mobile GPU. A critical challenge in this area turns out to be optimizing for the twodimensional (2D) texture cache, which needs to be exploited for faster executions on mobile GPUs. As a sorting method dominates the computations in 3DGS on mobile platforms, the core of Texture3dgs is a novel sorting algorithm where the processing, data movement, and placement are highly optimized for 2D memory. The properties of this algorithm are analyzed in view of a cost model for the texture cache. In addition, we accelerate other steps of the 3DGS algorithm through improved variable layout design and other optimizations. End-to-end evaluation shows that Texture3dgs delivers up to 4.1\texttimes{} and 1.7\texttimes{} speedup for the sorting and overall 3D scene reconstruction, respectively --while also reducing memory usage by up to 1.6\texttimes{} -- demonstrating the effectiveness of our design for efficient mobile 3D scene reconstruction.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Graphics},
+  file = {/home/yutharsan/Zotero/storage/2P6UPVGQ/Sanim et al. - 2025 - Optimizing 3D Gaussian Splattering for Mobile GPUs.pdf}
+}
+
+@article{
+  title = {{{3D Gaussian Splatting}} for {{Real-Time Radiance Field Rendering}}},
+  author = {Kerbl, Bernhard and Kopanas, Georgios and Leimkuehler, Thomas and Drettakis, George},
+  year = 2023,
+  month = aug,
+  journal = {ACM Transactions on Graphics},
+  volume = {42},
+  number = {4},
+  pages = {1--14},
+  issn = {0730-0301, 1557-7368},
+  doi = {10.1145/3592433},
+  urldate = {2026-02-16},
+  abstract = {Radiance Field methods have recently revolutionized novel-view synthesis of scenes captured with multiple photos or videos. However, achieving high visual quality still requires neural networks that are costly to train and render, while recent faster methods inevitably trade off speed for quality. For unbounded and complete scenes (rather than isolated objects) and 1080p resolution rendering, no current method can achieve real-time display rates. We introduce three key elements that allow us to achieve state-of-the-art visual quality while maintaining competitive training times and importantly allow high-quality real-time ({$\geq$} 30 fps) novel-view synthesis at 1080p resolution. First, starting from sparse points produced during camera calibration, we represent the scene with 3D Gaussians that preserve desirable properties of continuous volumetric radiance fields for scene optimization while avoiding unnecessary computation in empty space; Second, we perform interleaved optimization/density control of the 3D Gaussians, notably optimizing anisotropic covariance to achieve an accurate representation of the scene; Third, we develop a fast visibility-aware rendering algorithm that supports anisotropic splatting and both accelerates training and allows realtime rendering. We demonstrate state-of-the-art visual quality and real-time rendering on several established datasets.},
+  langid = {english},
+  file = {/home/yutharsan/Zotero/storage/KDQFE2RA/Kerbl et al. - 2023 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering.pdf}
+}
+
+@misc{
+  title = {{{NeRF}}: {{3D Scene Rendering}} with {{Neural Radiance Fields}}},
+  shorttitle = {{{NeRF}}},
+  author = {Kim, Dong-Keon},
+  year = 2025,
+  month = apr,
+  journal = {Medium},
+  urldate = {2026-02-16},
+  abstract = {A in-depth digest about NeRF{$\mkern1mu$}---{$\mkern1mu$}Summary and Review},
+  langid = {english}
 }

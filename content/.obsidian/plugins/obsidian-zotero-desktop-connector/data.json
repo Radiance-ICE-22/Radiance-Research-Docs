@@ -1,0 +1,19 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "Literature Notes",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "png",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "Markdown Citation",
+      "format": "template",
+      "template": "[@{{citekey}}]",
+      "cslStyle": "apa"
+    }
+  ],
+  "exportFormats": [],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "first-imported-note"
+}
