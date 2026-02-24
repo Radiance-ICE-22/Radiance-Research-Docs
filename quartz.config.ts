@@ -72,7 +72,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
-      Plugin.Citations({ bibliographyFile: "./content/references.bib",}),
+      Plugin.Citations({ bibliographyFile: "./content/references.json",}),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
