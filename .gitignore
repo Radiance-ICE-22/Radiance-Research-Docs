@@ -9,3 +9,12 @@ private/
 replit.nix
 
 .vscode
+
+# Ignore all actual plugin code
+content/.obsidian/plugins/*/*
+
+# EXCEPT for the configuration files
+!content/.obsidian/plugins/*/data.json
+
+# Keep the file that tells Obsidian which plugins are enabled
+!content/.obsidian/community-plugins.json

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/kerbl3DGaussianSplatting2023 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering.md",
-                "mode": "preview",
+                "file": "Gausian Splatting.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "kerbl3DGaussianSplatting2023 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering"
+              "title": "Gausian Splatting"
             }
           }
         ]
@@ -184,12 +184,14 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "dd75d52d3180a7eb",
+  "active": "e0fe81fdd862bdab",
   "lastOpenFiles": [
-    "templates/Zotero Paper Template.md",
-    "Papers/kerbl3DGaussianSplatting2023 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering.md",
-    "Papers",
+    "index.md",
+    "Traingle splatting.md",
     "Gausian Splatting.md",
+    "Papers/kerbl3DGaussianSplatting2023 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering.md",
+    "templates/Zotero Paper Template.md",
+    "Papers",
     "templates",
     "attachments/Gausian Splatting 2026-03-09 16.08.21.excalidraw.md",
     "attachments/Gausian Splatting 2026-03-09 16.08.21.excalidraw.svg",
@@ -198,8 +200,6 @@
     "attachments/Gausian Splatting 2026-03-09 15.53.02.excalidraw.svg",
     "Excalidraw/Drawing 2026-03-09 15.52.50.excalidraw.md",
     "Excalidraw",
-    "Traingle splatting.md",
-    "index.md",
     "references.json",
     "Literature Notes/@.md",
     "Literature Notes",
