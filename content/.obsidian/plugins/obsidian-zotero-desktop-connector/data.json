@@ -15,7 +15,7 @@
   "exportFormats": [
     {
       "name": "New Paper",
-      "outputPathTemplate": "Papers/{{citekey}} - {{title}}.md",
+      "outputPathTemplate": "Papers/{{citekey}}.md",
       "imageOutputPathTemplate": "Assets/{{citekey}}/",
       "imageBaseNameTemplate": "image",
       "templatePath": "templates/Zotero Paper Template.md"

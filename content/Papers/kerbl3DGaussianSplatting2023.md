@@ -1,5 +1,5 @@
 ---
-title: "3D Gaussian Splatting for Real-Time Radiance Field Rendering"
+title: 3D Gaussian Splatting for Real-Time Radiance Field Rendering
 aliases:
   - "@kerbl3DGaussianSplatting2023"
 tags:

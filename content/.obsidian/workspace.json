@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gausian Splatting.md",
-                "mode": "source",
+                "file": "Papers/kerbl3DGaussianSplatting2023.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gausian Splatting"
+              "title": "kerbl3DGaussianSplatting2023"
             }
           }
         ]
@@ -186,10 +186,11 @@
   },
   "active": "e0fe81fdd862bdab",
   "lastOpenFiles": [
+    "Gausian Splatting.md",
+    "Papers/kerbl3DGaussianSplatting2023.md",
+    "Papers/kerbl3DGaussianSplatting2023 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering.md",
     "index.md",
     "Traingle splatting.md",
-    "Gausian Splatting.md",
-    "Papers/kerbl3DGaussianSplatting2023 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering.md",
     "templates/Zotero Paper Template.md",
     "Papers",
     "templates",
