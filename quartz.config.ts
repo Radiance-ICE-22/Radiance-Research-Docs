@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "illuminaughty 👁️⃤",
+    pageTitle: "FYP",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Excalidraw", "attachments"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -72,7 +72,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
-      Plugin.Citations({ bibliographyFile: "./content/references.json",}),
+      Plugin.Citations({ bibliographyFile: "./content/references.json", csl: "apa"}),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

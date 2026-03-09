@@ -125,3 +125,19 @@ $\mathcal{N}(\mathbf{x} \mid \mu, \Sigma)=\frac{1}{(2\pi)^{\frac{3}{2}} |\Sigma|
 - ~={blue}**Pruning**=~ ---> If the opacity is too small
 - ~={blue}**Densitification**=~ --->  below recontruction are under densitification
 ![[Pasted image 20260109225054.png]]
+
+
+# Flash Cards
+
+Q: What is the specific computational bottleneck when rasterizing 3D Gaussians on edge hardware?
+![[Gausian Splatting 2026-03-09 16.08.21.excalidraw.svg]]
+%%[[Gausian Splatting 2026-03-09 16.08.21.excalidraw.md|🖋 Edit in Excalidraw]]%%
+A: The sorting phase of the primitives before alpha. 
+![[Gausian Splatting 2026-03-09 15.53.02.excalidraw.svg]]
+%%[[Gausian Splatting 2026-03-09 15.53.02.excalidraw.md|🖋 Edit in Excalidraw]]%%
+<!--ID: 1773052626287-->
+
+- - -
+
+
+

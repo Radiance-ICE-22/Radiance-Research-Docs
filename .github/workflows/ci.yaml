@@ -18,6 +18,7 @@ jobs:
         uses: actions/checkout@v6
         with:
             fetch-depth: 0
+            lfs: true
 
       - name: Setup Node
         uses: actions/setup-node@v6
@@ -29,3 +30,6 @@ jobs:
 
       - name: Ensure Quartz builds
         run: npx quartz build
+
+      - name: Ensure Test passes
+        run: npm test
