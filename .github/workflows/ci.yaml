@@ -29,3 +29,6 @@ jobs:
 
       - name: Ensure Quartz builds
         run: npx quartz build
+
+      - name: Ensure Test passes
+        run: npm test
