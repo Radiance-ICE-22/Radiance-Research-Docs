@@ -4,24 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "8e25a5b43fa0178a",
+        "id": "a9a9b97060cc69f8",
         "type": "tabs",
         "children": [
           {
-            "id": "e0fe81fdd862bdab",
+            "id": "124dda7707593263",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Concept Map.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": -436.6,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Concept Map"
+            }
+          },
+          {
+            "id": "484306446a76b9b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/kerbl3DGaussianSplatting2023.md",
-                "mode": "preview",
+                "file": "SLAM.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "kerbl3DGaussianSplatting2023"
+              "title": "SLAM"
+            }
+          },
+          {
+            "id": "5edd6ccc30ad5298",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -180,17 +212,24 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e0fe81fdd862bdab",
+  "active": "5edd6ccc30ad5298",
   "lastOpenFiles": [
+    "Maths/3D  to   2D view in computer graphics.md",
     "Gausian Splatting.md",
-    "Papers/kerbl3DGaussianSplatting2023.md",
-    "Papers/kerbl3DGaussianSplatting2023 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering.md",
     "index.md",
     "Traingle splatting.md",
+    "SLAM.md",
+    "Concept Map.md",
+    "Concept Map.canvas",
+    "Papers/kerbl3DGaussianSplatting2023.md",
+    "Papers/yanGSSLAMDenseVisual2024.md",
+    "Excalidraw/Drawing 2026-03-09 15.52.50.excalidraw.md",
+    "Maths/3D ----> 2D view in computer graphics.md",
+    "Papers/kerbl3DGaussianSplatting2023 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering.md",
     "templates/Zotero Paper Template.md",
     "Papers",
     "templates",
@@ -199,13 +238,11 @@
     "Excalidraw/Drawing 2026-03-09 16.07.47.excalidraw.md",
     "attachments/Gausian Splatting 2026-03-09 15.53.02.excalidraw.md",
     "attachments/Gausian Splatting 2026-03-09 15.53.02.excalidraw.svg",
-    "Excalidraw/Drawing 2026-03-09 15.52.50.excalidraw.md",
     "Excalidraw",
     "references.json",
     "Literature Notes/@.md",
     "Literature Notes",
     "kerbl3DGaussianSplatting2023.md",
-    "Maths/3D ----> 2D view in computer graphics.md",
     "Maths/Multivariate Normal Distribution.md"
   ]
 }
