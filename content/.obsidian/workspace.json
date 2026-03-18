@@ -44,16 +44,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Traingle splatting.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Traingle splatting"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,21 +216,21 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5edd6ccc30ad5298",
+  "active": "484306446a76b9b7",
   "lastOpenFiles": [
-    "Maths/3D  to   2D view in computer graphics.md",
+    "Concept Map.canvas",
     "Gausian Splatting.md",
     "index.md",
-    "Traingle splatting.md",
     "SLAM.md",
-    "Concept Map.md",
-    "Concept Map.canvas",
     "Papers/kerbl3DGaussianSplatting2023.md",
+    "Traingle splatting.md",
+    "templates/Zotero Paper Template.md",
+    "Maths/3D  to   2D view in computer graphics.md",
+    "Concept Map.md",
     "Papers/yanGSSLAMDenseVisual2024.md",
     "Excalidraw/Drawing 2026-03-09 15.52.50.excalidraw.md",
     "Maths/3D ----> 2D view in computer graphics.md",
     "Papers/kerbl3DGaussianSplatting2023 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering.md",
-    "templates/Zotero Paper Template.md",
     "Papers",
     "templates",
     "attachments/Gausian Splatting 2026-03-09 16.08.21.excalidraw.md",
