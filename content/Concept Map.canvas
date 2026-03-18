@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"5995dbb1fd4e71f9","type":"file","file":"SLAM.md","x":-336,"y":-400,"width":272,"height":50,"color":"2"},
+		{"id":"21f5c60e4f0ca3b3","type":"text","text":"hyper primitive map","x":-720,"y":-220,"width":250,"height":60},
+		{"id":"5e2c3e265e3c7d72","type":"text","text":"incremental reconstruction","x":-440,"y":-220,"width":250,"height":60},
+		{"id":"7deb3076c91c2727","type":"text","text":"silhouette guided differentiable rendering","x":-160,"y":-220,"width":220,"height":60},
+		{"id":"4c338006540c468b","type":"text","text":"realtime differentiable splatting rendering pipeline","x":100,"y":-220,"width":250,"height":60},
+		{"id":"1776b1255f953db9","type":"text","text":"# Gaussian Splatting\n[[kerbl3DGaussianSplatting2023]]","x":-416,"y":-640,"width":160,"height":80,"color":"1"}
+	],
+	"edges":[
+		{"id":"57965b452302801a","fromNode":"1776b1255f953db9","fromSide":"bottom","toNode":"5995dbb1fd4e71f9","toSide":"top"},
+		{"id":"4818e6dfa805e8c6","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"21f5c60e4f0ca3b3","toSide":"top"},
+		{"id":"7c589662eb94bb96","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"7deb3076c91c2727","toSide":"top"},
+		{"id":"0d7a9d5a790a5cfb","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"5e2c3e265e3c7d72","toSide":"top"},
+		{"id":"227196d744eabb8d","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"4c338006540c468b","toSide":"top"}
+	]
+}
