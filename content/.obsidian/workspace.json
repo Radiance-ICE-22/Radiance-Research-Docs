@@ -6,9 +6,34 @@
       {
         "id": "8e25a5b43fa0178a",
         "type": "tabs",
+        "dimension": 47.97724399494311,
         "children": [
           {
             "id": "e0fe81fdd862bdab",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Concept Map.canvas",
+                "viewState": {
+                  "x": -712.5598634330753,
+                  "y": -18.148233958122972,
+                  "zoom": -1
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Concept Map"
+            }
+          }
+        ]
+      },
+      {
+        "id": "68b9c4378d414cf2",
+        "type": "tabs",
+        "dimension": 52.02275600505689,
+        "children": [
+          {
+            "id": "f67b69d4a657ad2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +44,6 @@
               },
               "icon": "lucide-file",
               "title": "SLAM"
-            }
-          },
-          {
-            "id": "d9b6b0a2afad3b7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/Words.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Words"
             }
           }
         ]
@@ -210,17 +221,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e0fe81fdd862bdab",
+  "active": "f67b69d4a657ad2f",
   "lastOpenFiles": [
-    "Maths/Words.md",
+    "Concept Map.canvas",
     "SLAM.md",
+    "Gausian Splatting.md",
+    "Traingle splatting.md",
+    "Maths/Words.md",
     "Maths/Multivariate Normal Distribution.md",
     "Maths/3D  to   2D view in computer graphics.md",
     "index.md",
-    "Concept Map.canvas",
-    "Gausian Splatting.md",
     "ice-22-spalts.json",
-    "Traingle splatting.md",
     "templates/Zotero Paper Template.md",
     "Papers/kerbl3DGaussianSplatting2023.md",
     "Papers/kerbl3DGaussianSplatting2023 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering.md",

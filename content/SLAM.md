@@ -24,9 +24,9 @@
 
 ## A Survey on 3D Gaussian Splatting:[@chenSurvey3DGaussian2025]
 
-[@keethaSplaTAMSplatTrack2024a] **SplaTAM**: Real-Time 3D Mapping. Produce the map real time by tracking the position and orientation of the camera in the environment using the already built model and add new details if they are not recorded in the map.
+[@keethaSplaTAMSplatTrack2024] **SplaTAM**: Real-Time 3D Mapping. Produce the map real time by tracking the position and orientation of the camera in the environment using the already built model and add new details if they are not recorded in the map.
 
-[@dengCompact3DGaussian2024] **Compact 3D Guassian Splatting for Dense Visual SLAM**, introduce a method to compress and reduce the amount of memory and storage used by 3DGS base SLAM. (Uses indexing.)
+[@dengCompact3DGaussian2024] **Compact 3D Guassian Splatting for Dense Visual SLAM**, introduce a method to compress and reduce the amount of memory and storage used by 3DGS base SLAM using a sliding window. (Uses indexing.)
 
 [@hongLIVGaussMapLiDARInertialVisualFusion2024] **LIV-GaussMap: LiDAR-Inertial-Visual Fusion for Real-time 3D Radiance Field Map Rendering** . Here using multimodal sensor fusion (LIDAR, IMU etc) author improves the accuracy of the model.
 
