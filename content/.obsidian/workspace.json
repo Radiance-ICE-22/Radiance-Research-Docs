@@ -4,28 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "a9a9b97060cc69f8",
+        "id": "8e25a5b43fa0178a",
         "type": "tabs",
+        "dimension": 47.97724399494311,
         "children": [
           {
-            "id": "124dda7707593263",
+            "id": "e0fe81fdd862bdab",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Concept Map.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": -436.6,
-                  "zoom": 0
+                  "x": -712.5598634330753,
+                  "y": -18.148233958122972,
+                  "zoom": -1
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Concept Map"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "68b9c4378d414cf2",
+        "type": "tabs",
+        "dimension": 52.02275600505689,
+        "children": [
           {
-            "id": "484306446a76b9b7",
+            "id": "f67b69d4a657ad2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,23 +45,8 @@
               "icon": "lucide-file",
               "title": "SLAM"
             }
-          },
-          {
-            "id": "5edd6ccc30ad5298",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Traingle splatting.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Traingle splatting"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 228.5
   },
   "right": {
     "id": "7322e16806a3a27d",
@@ -196,8 +189,21 @@
               "icon": "lucide-list",
               "title": "Outline of index"
             }
+          },
+          {
+            "id": "c74ec4e679ab8b91",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "SLAM.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for SLAM"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -212,24 +218,22 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "484306446a76b9b7",
+  "active": "f67b69d4a657ad2f",
   "lastOpenFiles": [
     "Concept Map.canvas",
-    "Gausian Splatting.md",
-    "index.md",
     "SLAM.md",
-    "Papers/kerbl3DGaussianSplatting2023.md",
+    "Gausian Splatting.md",
     "Traingle splatting.md",
-    "templates/Zotero Paper Template.md",
+    "Maths/Words.md",
+    "Maths/Multivariate Normal Distribution.md",
     "Maths/3D  to   2D view in computer graphics.md",
-    "Concept Map.md",
-    "Papers/yanGSSLAMDenseVisual2024.md",
-    "Excalidraw/Drawing 2026-03-09 15.52.50.excalidraw.md",
-    "Maths/3D ----> 2D view in computer graphics.md",
+    "index.md",
+    "ice-22-spalts.json",
+    "templates/Zotero Paper Template.md",
+    "Papers/kerbl3DGaussianSplatting2023.md",
     "Papers/kerbl3DGaussianSplatting2023 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering.md",
     "Papers",
     "templates",
@@ -238,11 +242,12 @@
     "Excalidraw/Drawing 2026-03-09 16.07.47.excalidraw.md",
     "attachments/Gausian Splatting 2026-03-09 15.53.02.excalidraw.md",
     "attachments/Gausian Splatting 2026-03-09 15.53.02.excalidraw.svg",
+    "Excalidraw/Drawing 2026-03-09 15.52.50.excalidraw.md",
     "Excalidraw",
     "references.json",
     "Literature Notes/@.md",
     "Literature Notes",
     "kerbl3DGaussianSplatting2023.md",
-    "Maths/Multivariate Normal Distribution.md"
+    "Maths/3D ----> 2D view in computer graphics.md"
   ]
 }
