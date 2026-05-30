@@ -1,4 +1,0 @@
-- **Online learning in ML** ----> A method where a model is updated incrementally one data point or small batch at a time rather than training on the entire dataset at once.
-- **PSNR score** ----> Peak signal to noise ratio. A standard objective metric used in computer graphics, image processing and video compression to measure the quality of reconstruction.
-- **Fidelity in images** ----> The accuracy, detail and faithfulness with which an image represents the original subject, scene or data without distortion.
-- **Ablation study** ----> A systematic evaluation in ML that removes components (layers, features or modules) from a model to measure their individual impact on performance.
