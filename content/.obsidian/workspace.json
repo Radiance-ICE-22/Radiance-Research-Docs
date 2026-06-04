@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NeRF.md",
-                "mode": "source",
+                "file": "Papers/qinLangSplat3DLanguage.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "NeRF"
+              "title": "qinLangSplat3DLanguage"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NeRF.md",
+                "file": "Papers/pereraCrossJEPACrossModalJointEmbedding2025.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "NeRF"
+              "title": "pereraCrossJEPACrossModalJointEmbedding2025"
             }
           },
           {
@@ -200,19 +200,28 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "SLAM.md"
+                "file": "Dense SLAM.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for SLAM"
+              "title": "File properties for Dense SLAM"
+            }
+          },
+          {
+            "id": "f028102b3846d461",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {},
+              "icon": "quote-glyph",
+              "title": "References"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,21 +237,36 @@
   },
   "active": "460170dbfeefdc25",
   "lastOpenFiles": [
-    "Dense SLAM.md",
-    "Traingle splatting.md",
-    "Vision Based Navigation.md",
-    "Gausian Splatting.md",
+    "Random Facts.md",
+    "Papers/pereraCrossJEPACrossModalJointEmbedding2025.md",
     "NeRF.md",
     "SLAM.md",
     "index.md",
+    "3D Reconstruction with Drones.md",
     "Concept Map.canvas",
-    "Untitled.md",
+    "Papers/lecunPathAutonomousMachine.md",
+    "Papers/qinLangSplat3DLanguage.md",
     "Papers/kerbl3DGaussianSplatting2023.md",
-    "templates/Zotero Paper Template.md",
+    "Papers/qinVINSMonoRobustVersatile2018.md",
+    "Papers/attachments/Pasted image 20260602140759.png",
+    "Papers/attachments/Pasted image 20260602140756.png",
+    "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.46.52.excalidraw.md",
+    "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.46.52.excalidraw.svg",
+    "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.40.25.excalidraw.md",
+    "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.40.25.excalidraw.svg",
+    "Papers/attachments",
+    "Dense SLAM.md",
+    "Vision Based Navigation.md",
+    "Traingle splatting.md",
+    "Excalidraw/Drawing 2026-03-09 15.52.50.excalidraw.md",
+    "Excalidraw/Drawing 2026-06-01 16.34.15.excalidraw.md",
+    "Excalidraw/Drawing 2026-06-01 16.34.15.excalidraw.svg",
     "Maths/3D  to   2D view in computer graphics.md",
+    "Gausian Splatting.md",
+    "attachments/Pasted image 20260531170339.png",
+    "templates/Zotero Paper Template.md",
     "ice-22-spalts.json",
     "templates/Zotero Paper Template.md",
-    "Papers/kerbl3DGaussianSplatting2023.md",
     "Papers/kerbl3DGaussianSplatting2023 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering.md",
     "Papers",
     "templates",
@@ -251,12 +275,9 @@
     "Excalidraw/Drawing 2026-03-09 16.07.47.excalidraw.md",
     "attachments/Gausian Splatting 2026-03-09 15.53.02.excalidraw.md",
     "attachments/Gausian Splatting 2026-03-09 15.53.02.excalidraw.svg",
-    "Excalidraw/Drawing 2026-03-09 15.52.50.excalidraw.md",
     "Excalidraw",
     "references.json",
     "Literature Notes/@.md",
-    "Literature Notes",
-    "kerbl3DGaussianSplatting2023.md",
-    "Maths/3D ----> 2D view in computer graphics.md"
+    "Literature Notes"
   ]
 }
