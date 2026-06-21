@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SLAM-Reconstruction/Chathuranga sir Recomendations.md",
+                "file": "Himala-Literature review/Reconstructions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chathuranga sir Recomendations"
+              "title": "Reconstructions"
+            }
+          },
+          {
+            "id": "58b1f5358a4cd961",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Himala-Literature review/3dgs with SLAM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3dgs with SLAM"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -225,16 +239,21 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d1727efb5a4352d1",
+  "active": "58b1f5358a4cd961",
   "lastOpenFiles": [
-    "SLAM.md",
-    "SLAM-Reconstruction/Chathuranga sir Recomendations.md",
-    "SLAM-Reconstruction",
-    "Traingle splatting.md",
-    "Untitled.md",
-    "index.md",
-    "Gausian Splatting.md",
+    "Himala-Literature review/attachments/Pasted image 20260621133244.png",
+    "Himala-Literature review/attachments/Pasted image 20260621133122.png",
+    "Himala-Literature review/Reconstructions.md",
+    "Himala-Literature review/3dgs with SLAM.md",
     "Concept Map.canvas",
+    "Himala-Literature review/attachments/Pasted image 20260607094558.png",
+    "Himala-Literature review/attachments",
+    "Traingle splatting.md",
+    "SLAM.md",
+    "Untitled.md",
+    "Gausian Splatting.md",
+    "Himala-Literature review",
+    "index.md",
     "Maths/Words.md",
     "Maths/Multivariate Normal Distribution.md",
     "Maths/3D  to   2D view in computer graphics.md",

@@ -1,2 +1,0 @@
-- [LingBot](https://github.com/Robbyant/lingbot-map) -- Use LLM methods to infer geometric data from videos. But at least need 15GB vram. A issue was faced with bfloat16 data type. It was used inside the repo. Suspect the model is trained for float32.
-- 
