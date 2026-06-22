@@ -1,0 +1,2 @@
+- [LingBot](https://github.com/Robbyant/lingbot-map) -- Use LLM methods to infer geometric data from videos. But at least need 15GB vram. A issue was faced with bfloat16 data type. It was used inside the repo. Suspect the model is trained for float32.
+- https://introlab.github.io/rtabmap/  --- Initialized depth cam and rtab map inside ros2 humble. But a issue exists where first frame doesn't get correctly marked as the origin coodinate frame. It happens to all frames, therefore no reconstruction is happening.

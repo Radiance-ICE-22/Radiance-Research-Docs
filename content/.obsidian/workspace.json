@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NeRF.md",
-                "mode": "source",
+                "file": "Himala-Literature review/3dgs with SLAM.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "NeRF"
+              "title": "3dgs with SLAM"
             }
           },
           {
@@ -216,24 +216,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "bases:Create new base": false
     }
   },
   "active": "460170dbfeefdc25",
   "lastOpenFiles": [
-    "Dense SLAM.md",
-    "Traingle splatting.md",
+    "Himala-Literature review/Reconstructions.md",
+    "Himala-Literature review/3dgs with SLAM.md",
+    "Himala-Literature review/attachments/Pasted image 20260621133244.png",
+    "Himala-Literature review/attachments/Pasted image 20260621133122.png",
+    "Himala-Literature review/attachments/Pasted image 20260607094558.png",
     "Vision Based Navigation.md",
-    "Gausian Splatting.md",
-    "NeRF.md",
+    "Himala-Literature review/attachments",
+    "Himala-Literature review",
+    "Traingle splatting.md",
     "SLAM.md",
+    "NeRF.md",
+    "Dense SLAM.md",
+    "Gausian Splatting.md",
     "index.md",
     "Concept Map.canvas",
     "Untitled.md",
