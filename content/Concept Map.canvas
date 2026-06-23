@@ -19,7 +19,8 @@
 		{"id":"202a57afeec3f2c7","type":"file","file":"NeRF.md","x":251,"y":-1225,"width":118,"height":50,"color":"2"},
 		{"id":"704bf367a7973645","type":"text","text":"Light weight NERF","x":36,"y":-862,"width":210,"height":60},
 		{"id":"43b7862355c0beba","type":"text","text":"Physics-Driven Loss Functions (differentiable physics model)","x":800,"y":-1072,"width":250,"height":90},
-		{"id":"de9e5febf6431327","x":1002,"y":-1262,"width":250,"height":75,"color":"4","type":"file","file":"Vision Based Navigation.md"}
+		{"id":"de9e5febf6431327","type":"file","file":"Vision Based Navigation.md","x":1002,"y":-1262,"width":250,"height":75,"color":"4"},
+		{"id":"4975c59ba9bea22d","x":-431,"y":-1780,"width":250,"height":140,"color":"5","type":"file","file":"3D Reconstruction with Drones.md"}
 	],
 	"edges":[
 		{"id":"4818e6dfa805e8c6","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"21f5c60e4f0ca3b3","toSide":"top"},
@@ -38,6 +39,8 @@
 		{"id":"63c8da07f3a9aac5","fromNode":"9f16bfc3734a8ffb","fromSide":"bottom","toNode":"5995dbb1fd4e71f9","toSide":"top"},
 		{"id":"4f286644c37a4849","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"461d39e91dd02839","toSide":"top"},
 		{"id":"b5ef4aa442581fe9","fromNode":"704bf367a7973645","fromSide":"bottom","toNode":"461d39e91dd02839","toSide":"top"},
-		{"id":"d14918ee1307014a","fromNode":"de9e5febf6431327","fromSide":"bottom","toNode":"43b7862355c0beba","toSide":"top"}
+		{"id":"d14918ee1307014a","fromNode":"de9e5febf6431327","fromSide":"bottom","toNode":"43b7862355c0beba","toSide":"top"},
+		{"id":"1d2b3280f598c987","fromNode":"1776b1255f953db9","fromSide":"top","toNode":"4975c59ba9bea22d","toSide":"left"},
+		{"id":"3725a1ddabf190ed","fromNode":"202a57afeec3f2c7","fromSide":"top","toNode":"4975c59ba9bea22d","toSide":"bottom"}
 	]
 }
