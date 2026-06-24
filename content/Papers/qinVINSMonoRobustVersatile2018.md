@@ -6,7 +6,7 @@ tags:
   - literature
   - slam
   - edge-computing
-draft: true
+draft: false
 ---
 
 > [!info] Paper Metadata

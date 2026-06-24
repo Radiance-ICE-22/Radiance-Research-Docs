@@ -1,11 +1,15 @@
 {
 	"nodes":[
-		{"id":"c4bb92b887a3a550","x":-420,"y":-1160,"width":260,"height":120,"color":"1","type":"text","text":"# 3D Representational Learning  "},
-		{"id":"d6e9f49621a512e4","x":-966,"y":-798,"width":250,"height":60,"color":"2","type":"text","text":"# JEPA"},
-		{"id":"403f412c2a1cdbe0","x":-1660,"y":-798,"width":400,"height":400,"type":"file","file":"Papers/pereraCrossJEPACrossModalJointEmbedding2025.md"}
+		{"id":"84d7d670c8f3b62b","type":"file","file":"JEPA.md","x":-1180,"y":-1483,"width":160,"height":83,"color":"2"},
+		{"id":"403f412c2a1cdbe0","type":"file","file":"Papers/pereraCrossJEPACrossModalJointEmbedding2025.md","x":-1220,"y":-1060,"width":400,"height":100},
+		{"id":"c4bb92b887a3a550","type":"text","text":"# 3D Representational Learning  ","x":-560,"y":-1501,"width":260,"height":120,"color":"1"},
+		{"id":"1037de96e3b82a1e","type":"file","file":"Papers/qinLangSplat3DLanguage.md","x":-200,"y":-1121,"width":400,"height":61},
+		{"id":"0fe540c4a12e1a13","x":360,"y":-1466,"width":400,"height":50,"color":"2","type":"file","file":"3D Gaussian Splatting.md"}
 	],
 	"edges":[
-		{"id":"969f10eb135271c9","fromNode":"c4bb92b887a3a550","fromSide":"left","toNode":"d6e9f49621a512e4","toSide":"right"},
-		{"id":"86175fe852a29770","fromNode":"d6e9f49621a512e4","fromSide":"left","toNode":"403f412c2a1cdbe0","toSide":"right"}
+		{"id":"acdd9c08037e9a8f","fromNode":"84d7d670c8f3b62b","fromSide":"bottom","toNode":"403f412c2a1cdbe0","toSide":"top"},
+		{"id":"251438471c81891f","fromNode":"c4bb92b887a3a550","fromSide":"right","toNode":"1037de96e3b82a1e","toSide":"top"},
+		{"id":"4d28295455fa0260","fromNode":"0fe540c4a12e1a13","fromSide":"left","toNode":"1037de96e3b82a1e","toSide":"right"},
+		{"id":"c3e1ceabef76a897","fromNode":"c4bb92b887a3a550","fromSide":"left","toNode":"403f412c2a1cdbe0","toSide":"right"}
 	]
 }
