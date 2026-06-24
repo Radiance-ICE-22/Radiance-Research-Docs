@@ -11,14 +11,17 @@
             "id": "e0fe81fdd862bdab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "templates/Zotero Paper Template.md",
-                "mode": "source",
-                "source": true
+                "file": "Concept Map.canvas",
+                "viewState": {
+                  "x": -677.0063491789382,
+                  "y": -898.3682736892424,
+                  "zoom": -1.2036477807264445
+                }
               },
-              "icon": "lucide-file",
-              "title": "Zotero Paper Template"
+              "icon": "lucide-layout-dashboard",
+              "title": "Concept Map"
             }
           }
         ]
@@ -199,10 +202,12 @@
   },
   "active": "e0fe81fdd862bdab",
   "lastOpenFiles": [
-    "3D Reconstruction with Drones.md",
-    "templates/Zotero Paper Template.md",
     "Papers/pereraCrossJEPACrossModalJointEmbedding2025.md",
+    "Papers/attachments/Pasted image 20260623201104.png",
+    "Papers/attachments/Pasted image 20260623180152.png",
     "Papers/lecunPathAutonomousMachine.md",
+    "templates/Zotero Paper Template.md",
+    "3D Reconstruction with Drones.md",
     "NeRF.md",
     "Himala-Literature review/3dgs with SLAM.md",
     "attachments/Pasted image 20260531170339.png",
@@ -237,9 +242,7 @@
     "Papers",
     "templates",
     "attachments/Gausian Splatting 2026-03-09 16.08.21.excalidraw.md",
-    "attachments/Gausian Splatting 2026-03-09 16.08.21.excalidraw.svg",
     "Excalidraw/Drawing 2026-03-09 16.07.47.excalidraw.md",
-    "attachments/Gausian Splatting 2026-03-09 15.53.02.excalidraw.svg",
     "Excalidraw",
     "references.json",
     "Literature Notes"

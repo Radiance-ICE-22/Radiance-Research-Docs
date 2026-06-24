@@ -1,46 +1,11 @@
 {
 	"nodes":[
-		{"id":"5995dbb1fd4e71f9","type":"file","file":"Dense SLAM.md","x":-416,"y":-480,"width":272,"height":50,"color":"3"},
-		{"id":"21f5c60e4f0ca3b3","type":"text","text":"hyper primitive map","x":-424,"y":-195,"width":250,"height":60,"color":"1"},
-		{"id":"5e2c3e265e3c7d72","type":"text","text":"incremental reconstruction","x":-144,"y":-195,"width":250,"height":60,"color":"1"},
-		{"id":"7deb3076c91c2727","type":"text","text":"silhouette guided differentiable rendering","x":136,"y":-195,"width":220,"height":60,"color":"1"},
-		{"id":"4c338006540c468b","type":"text","text":"realtime differentiable splatting rendering pipeline","x":396,"y":-195,"width":250,"height":60,"color":"1"},
-		{"id":"ebfaa917d2a90e7a","type":"text","text":"Guasian pyramid","x":-895,"y":-190,"width":185,"height":50,"color":"1"},
-		{"id":"32663cd75c3be69e","type":"text","text":"Semantic classification mapping","x":-1160,"y":-190,"width":218,"height":50,"color":"1"},
-		{"id":"06187d3ed4b78aa3","type":"text","text":"Scale up and down blobs according to distance","x":-556,"y":15,"width":250,"height":60,"color":"1"},
-		{"id":"1f8656570a342982","type":"text","text":"Opaque blobs and nearly transparent.","x":-269,"y":-6,"width":250,"height":60,"color":"1"},
-		{"id":"ddab12af61e4c867","type":"text","text":"RGB-D camera","x":-862,"y":-31,"width":152,"height":50,"color":"1"},
-		{"id":"2dd36897a1534ade","type":"text","text":"Sensor fusion LIDAR, Inertial camera","x":-680,"y":-135,"width":220,"height":60,"color":"1"},
-		{"id":"461d39e91dd02839","type":"text","text":"Federated Learning","x":720,"y":-200,"width":250,"height":60,"color":"2"},
-		{"id":"9f16bfc3734a8ffb","type":"file","file":"SLAM.md","x":-387,"y":-802,"width":215,"height":82,"color":"3"},
-		{"id":"1776b1255f953db9","type":"text","text":"# Gaussian Splatting\n[[kerbl3DGaussianSplatting2023]]","x":-975,"y":-1240,"width":160,"height":80,"color":"1"},
-		{"id":"faa2f55361d77e2d","type":"text","text":"Sliding window method ","x":-1285,"y":-860,"width":220,"height":60},
-		{"id":"c53257721ff13d53","type":"text","text":"Reducing over-fitting and anisotropy","x":-1005,"y":-860,"width":220,"height":60},
-		{"id":"202a57afeec3f2c7","type":"file","file":"NeRF.md","x":251,"y":-1225,"width":118,"height":50,"color":"2"},
-		{"id":"704bf367a7973645","type":"text","text":"Light weight NERF","x":36,"y":-862,"width":210,"height":60},
-		{"id":"43b7862355c0beba","type":"text","text":"Physics-Driven Loss Functions (differentiable physics model)","x":800,"y":-1072,"width":250,"height":90},
-		{"id":"de9e5febf6431327","type":"file","file":"Vision Based Navigation.md","x":1002,"y":-1262,"width":250,"height":75,"color":"4"},
-		{"id":"4975c59ba9bea22d","x":-431,"y":-1780,"width":250,"height":140,"color":"5","type":"file","file":"3D Reconstruction with Drones.md"}
+		{"id":"c4bb92b887a3a550","x":-420,"y":-1160,"width":260,"height":120,"color":"1","type":"text","text":"# 3D Representational Learning  "},
+		{"id":"d6e9f49621a512e4","x":-966,"y":-798,"width":250,"height":60,"color":"2","type":"text","text":"# JEPA"},
+		{"id":"403f412c2a1cdbe0","x":-1660,"y":-798,"width":400,"height":400,"type":"file","file":"Papers/pereraCrossJEPACrossModalJointEmbedding2025.md"}
 	],
 	"edges":[
-		{"id":"4818e6dfa805e8c6","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"21f5c60e4f0ca3b3","toSide":"top"},
-		{"id":"7c589662eb94bb96","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"7deb3076c91c2727","toSide":"top"},
-		{"id":"0d7a9d5a790a5cfb","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"5e2c3e265e3c7d72","toSide":"top"},
-		{"id":"227196d744eabb8d","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"4c338006540c468b","toSide":"top"},
-		{"id":"277b4528c2f39fb3","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"2dd36897a1534ade","toSide":"top"},
-		{"id":"048c48d58796f559","fromNode":"1776b1255f953db9","fromSide":"bottom","toNode":"c53257721ff13d53","toSide":"top"},
-		{"id":"696ea7ac98643a6e","fromNode":"1776b1255f953db9","fromSide":"bottom","toNode":"faa2f55361d77e2d","toSide":"top"},
-		{"id":"3866e9d90f439712","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"ebfaa917d2a90e7a","toSide":"top"},
-		{"id":"7f44934dec7397eb","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"32663cd75c3be69e","toSide":"top"},
-		{"id":"c830751a93cd347e","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"06187d3ed4b78aa3","toSide":"top"},
-		{"id":"5587b6b4ee387d02","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"1f8656570a342982","toSide":"top"},
-		{"id":"0acfbaef57cf62cd","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"ddab12af61e4c867","toSide":"top"},
-		{"id":"fc105c4057c62d3e","fromNode":"202a57afeec3f2c7","fromSide":"left","toNode":"704bf367a7973645","toSide":"top"},
-		{"id":"63c8da07f3a9aac5","fromNode":"9f16bfc3734a8ffb","fromSide":"bottom","toNode":"5995dbb1fd4e71f9","toSide":"top"},
-		{"id":"4f286644c37a4849","fromNode":"5995dbb1fd4e71f9","fromSide":"bottom","toNode":"461d39e91dd02839","toSide":"top"},
-		{"id":"b5ef4aa442581fe9","fromNode":"704bf367a7973645","fromSide":"bottom","toNode":"461d39e91dd02839","toSide":"top"},
-		{"id":"d14918ee1307014a","fromNode":"de9e5febf6431327","fromSide":"bottom","toNode":"43b7862355c0beba","toSide":"top"},
-		{"id":"1d2b3280f598c987","fromNode":"1776b1255f953db9","fromSide":"top","toNode":"4975c59ba9bea22d","toSide":"left"},
-		{"id":"3725a1ddabf190ed","fromNode":"202a57afeec3f2c7","fromSide":"top","toNode":"4975c59ba9bea22d","toSide":"bottom"}
+		{"id":"969f10eb135271c9","fromNode":"c4bb92b887a3a550","fromSide":"left","toNode":"d6e9f49621a512e4","toSide":"right"},
+		{"id":"86175fe852a29770","fromNode":"d6e9f49621a512e4","fromSide":"left","toNode":"403f412c2a1cdbe0","toSide":"right"}
 	]
 }
