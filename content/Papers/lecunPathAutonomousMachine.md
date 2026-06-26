@@ -4,7 +4,7 @@ aliases:
   - "@lecunPathAutonomousMachine"
 tags:
   - literature
-draft: true
+draft: false
 ---
 
 > [!info] Paper Metadata

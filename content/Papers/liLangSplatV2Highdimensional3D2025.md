@@ -1,7 +1,7 @@
 ---
-title: "{{title}}"
+title: "LangSplatV2: High-dimensional 3D Language Gaussian Splatting with 450+ FPS"
 aliases:
-  - "@{{citekey}}"
+  - "@liLangSplatV2Highdimensional3D2025"
 tags:
   - literature
   - slam
@@ -10,10 +10,10 @@ draft: true
 ---
 
 > [!info] Paper Metadata
-> - **Citekey:** `@{{citekey}}`
-> - **Authors:** {{authors}}
-> - **Year:** {{date | format("YYYY")}}
-> - **DOI/Link:** [{{DOI}}](https://doi.org/{{DOI}})
+> - **Citekey:** `@liLangSplatV2Highdimensional3D2025`
+> - **Authors:** Wanhua Li, Yujie Zhao, Minghan Qin, Yang Liu, Yuanhao Cai, Chuang Gan, Hanspeter Pfister
+> - **Year:** 2025
+> - **DOI/Link:** [10.48550/arXiv.2507.07136](https://doi.org/10.48550/arXiv.2507.07136)
 
 ## 📌 One-Sentence Summary
 *What is the core contribution of this paper and how does it apply to our 3D Gaussian Splatting edge deployment architecture?*

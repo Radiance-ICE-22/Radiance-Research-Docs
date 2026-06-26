@@ -11,20 +11,31 @@
             "id": "e0fe81fdd862bdab",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "e5afb758911979bc",
+            "type": "leaf",
+            "state": {
               "type": "canvas",
               "state": {
                 "file": "Concept Map.canvas",
                 "viewState": {
-                  "x": -677.0063491789382,
-                  "y": -898.3682736892424,
-                  "zoom": -1.2036477807264445
+                  "x": -230,
+                  "y": -1230.5,
+                  "zoom": -1.01330908922889
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Concept Map"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,75 +185,84 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "SLAM.md"
+                "file": "Dense SLAM.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for SLAM"
+              "title": "File properties for Dense SLAM"
+            }
+          },
+          {
+            "id": "f028102b3846d461",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {},
+              "icon": "quote-glyph",
+              "title": "References"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e0fe81fdd862bdab",
+  "active": "e5afb758911979bc",
   "lastOpenFiles": [
-    "Papers/pereraCrossJEPACrossModalJointEmbedding2025.md",
-    "Papers/attachments/Pasted image 20260623201104.png",
-    "Papers/attachments/Pasted image 20260623180152.png",
-    "Papers/lecunPathAutonomousMachine.md",
-    "templates/Zotero Paper Template.md",
-    "3D Reconstruction with Drones.md",
-    "NeRF.md",
-    "Himala-Literature review/3dgs with SLAM.md",
-    "attachments/Pasted image 20260531170339.png",
-    "Random Facts.md",
-    "Papers/qinVINSMonoRobustVersatile2018.md",
     "Papers/qinLangSplat3DLanguage.md",
+    "Papers/qinVINSMonoRobustVersatile2018.md",
+    "Papers/pereraCrossJEPACrossModalJointEmbedding2025.md",
+    "Papers/lecunPathAutonomousMachine.md",
+    "Papers/kerbl3DGaussianSplatting2023.md",
+    "templates/Zotero Paper Template.md",
+    "Papers/liLangSplatV2Highdimensional3D2025.md",
+    "Vision Based Navigation.md",
+    "Knowledge Distillation.md",
+    "NeRF.md",
+    "Random Facts.md",
+    "Papers/attachments/Pasted image 20260624184125.png",
+    "Papers/attachments/Pasted image 20260624173401.png",
+    "Papers/attachments/Pasted image 20260624172548.png",
+    "Concept Map.canvas",
+    "3D Gaussian Splatting.md",
+    "3D Reconstruction with Drones.md",
+    "JEPA.md",
+    "3DGS for Streaming Map Reconstruction.md",
+    "3D Reconstruction with Repetitive Elements.md",
+    "3D Gaussian Splatting with Deferred Reflection.md",
+    "Collaborative SLAM with 3D Gaussian Splatting.md",
+    "Dense SLAM.md",
+    "attachments/Pasted image 20260531170339.png",
     "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.46.52.excalidraw.svg",
     "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.46.52.excalidraw.md",
     "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.40.25.excalidraw.svg",
     "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.40.25.excalidraw.md",
+    "Papers/attachments/Pasted image 20260623201104.png",
+    "Papers/attachments/Pasted image 20260623180152.png",
     "Papers/attachments/Pasted image 20260602140759.png",
     "Papers/attachments/Pasted image 20260602140756.png",
     "Papers/attachments",
-    "Papers/kerbl3DGaussianSplatting2023.md",
-    "Dense SLAM.md",
-    "Concept Map.canvas",
-    "Gausian Splatting.md",
-    "index.md",
-    "Himala-Literature review/Reconstructions.md",
-    "Himala-Literature review/attachments/Pasted image 20260621133244.png",
-    "Himala-Literature review/attachments/Pasted image 20260621133122.png",
-    "Himala-Literature review/attachments/Pasted image 20260607094558.png",
-    "Vision Based Navigation.md",
-    "Himala-Literature review/attachments",
-    "Himala-Literature review",
-    "Traingle splatting.md",
+    "LangSplat.md",
     "SLAM.md",
-    "Untitled.md",
-    "Maths/3D  to   2D view in computer graphics.md",
+    "index.md",
+    "Traingle splatting.md",
+    "Excalidraw/Drawing 2026-03-09 15.52.50.excalidraw.md",
     "ice-22-spalts.json",
-    "Papers/kerbl3DGaussianSplatting2023 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering.md",
     "Papers",
     "templates",
-    "attachments/Gausian Splatting 2026-03-09 16.08.21.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-09 16.07.47.excalidraw.md",
     "Excalidraw",
     "references.json",
     "Literature Notes"

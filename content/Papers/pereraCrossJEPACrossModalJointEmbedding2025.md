@@ -43,7 +43,7 @@ Their results suggests that are achieved a really good performance across the bo
 ### If yes, how, if not why?
 The paper focuses on a **multi-modal  JEPA architecture** for 3d representational learning. 
 
-Scarcity of 3D training data is tackled by using [[Knowledge Distilation]]. There's lack of availability of large foundational models for 3D data. Using [[JEPA]] based **encoder weights**(teacher) like DinoV2 they distilled learned high level image semantics of million of 2D images (structural aspects) over 3D point clouds (student)
+Scarcity of 3D training data is tackled by using [[Knowledge Distillation]]. There's lack of availability of large foundational models for 3D data. Using [[JEPA]] based **encoder weights**(teacher) like DinoV2 they distilled learned high level image semantics of million of 2D images (structural aspects) over 3D point clouds (student)
 
 The computational  inefficiency is tacked by incorporating [[Latent Space ]] embedding with a light weight encoder and streaming mechanism uses cached images from the disk and fusing them for pre-training.  
 
@@ -66,7 +66,7 @@ Patch level representations of the image could be beneficial **making the learni
 
 Q:  How can [[JEPA]] architecture useful for 3D represntational learning ? 
 A: 
-[[JEPA]] is grounded in human like learning, learning the structural semantics rather than the fine details.  One notable work [[pereraCrossJEPACrossModalJointEmbedding2025]] suggests a multi-modal training framework based on JEPA which uses [[Knowledge Distilation]] as a primary mean of training 3D point cloud from the information disiled from **foundational encoder model** is promising in that direction.
+[[JEPA]] is grounded in human like learning, learning the structural semantics rather than the fine details.  One notable work [[pereraCrossJEPACrossModalJointEmbedding2025]] suggests a multi-modal training framework based on JEPA which uses [[Knowledge Distillation]] as a primary mean of training 3D point cloud from the information disiled from **foundational encoder model** is promising in that direction.
 
 ![[Pasted image 20260623201104.png]]
 
