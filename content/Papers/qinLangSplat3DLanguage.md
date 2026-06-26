@@ -3,17 +3,15 @@ title: "LangSplat: 3D Language Gaussian Splatting"
 aliases:
   - "@qinLangSplat3DLanguage"
 tags:
-  - literature
-  - slam
-  - edge-computing
-draft: false
+  - 3d-representation
+draft: true
 ---
 
 > [!info] Paper Metadata
 > - **Citekey:** `@qinLangSplat3DLanguage`
 > - **Authors:** Minghan Qin, Wanhua Li, Jiawei Zhou, Haoqian Wang, Hanspeter Pfister
-> - **Year:** Error: `format` can only be applied to dates. Tried for format object
-> - **DOI/Link:** [](https://doi.org/)
+> - **Year:** 2023
+> - **DOI/Link:** [10.48550/arXiv.2312.16084](https://doi.org/10.48550/arXiv.2312.16084)
 
 ## 📌 One-Sentence Summary
 *What is the core contribution of this paper and how does it apply to our 3D Gaussian Splatting edge deployment architecture?*
