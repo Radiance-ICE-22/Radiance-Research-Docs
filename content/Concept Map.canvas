@@ -2,14 +2,19 @@
 	"nodes":[
 		{"id":"84d7d670c8f3b62b","type":"file","file":"JEPA.md","x":-1180,"y":-1483,"width":160,"height":83,"color":"2"},
 		{"id":"403f412c2a1cdbe0","type":"file","file":"Papers/pereraCrossJEPACrossModalJointEmbedding2025.md","x":-1220,"y":-1060,"width":400,"height":100},
-		{"id":"c4bb92b887a3a550","type":"text","text":"# 3D Representational Learning  ","x":-560,"y":-1501,"width":260,"height":120,"color":"1"},
-		{"id":"1037de96e3b82a1e","type":"file","file":"Papers/qinLangSplat3DLanguage.md","x":-200,"y":-1121,"width":400,"height":61},
-		{"id":"0fe540c4a12e1a13","x":360,"y":-1466,"width":400,"height":50,"color":"2","type":"file","file":"3D Gaussian Splatting.md"}
+		{"id":"c4bb92b887a3a550","type":"text","text":"# 3D Representational Learning  ","x":-560,"y":-1520,"width":260,"height":139,"color":"1"},
+		{"id":"1037de96e3b82a1e","type":"file","file":"Papers/qinLangSplat3DLanguage2023.md","x":-200,"y":-1121,"width":400,"height":61},
+		{"id":"0fe540c4a12e1a13","type":"file","file":"3D Gaussian Splatting.md","x":360,"y":-1466,"width":400,"height":50,"color":"2"},
+		{"id":"093bd37462725a92","type":"file","file":"Papers/zuoFMGSFoundationModel2024.md","x":-200,"y":-1840,"width":424,"height":58},
+		{"id":"c1712a175ba80875","x":-740,"y":-2080,"width":279,"height":59,"color":"2","type":"text","text":"# Foundation Models"}
 	],
 	"edges":[
 		{"id":"acdd9c08037e9a8f","fromNode":"84d7d670c8f3b62b","fromSide":"bottom","toNode":"403f412c2a1cdbe0","toSide":"top"},
 		{"id":"251438471c81891f","fromNode":"c4bb92b887a3a550","fromSide":"right","toNode":"1037de96e3b82a1e","toSide":"top"},
 		{"id":"4d28295455fa0260","fromNode":"0fe540c4a12e1a13","fromSide":"left","toNode":"1037de96e3b82a1e","toSide":"right"},
-		{"id":"c3e1ceabef76a897","fromNode":"c4bb92b887a3a550","fromSide":"left","toNode":"403f412c2a1cdbe0","toSide":"right"}
+		{"id":"c3e1ceabef76a897","fromNode":"c4bb92b887a3a550","fromSide":"left","toNode":"403f412c2a1cdbe0","toSide":"right"},
+		{"id":"4c53a47ec37a9bc8","fromNode":"c4bb92b887a3a550","fromSide":"top","toNode":"093bd37462725a92","toSide":"left"},
+		{"id":"694b4831eddb288f","fromNode":"0fe540c4a12e1a13","fromSide":"top","toNode":"093bd37462725a92","toSide":"right"},
+		{"id":"359bf861a3161ed6","fromNode":"c1712a175ba80875","fromSide":"right","toNode":"093bd37462725a92","toSide":"top"}
 	]
 }

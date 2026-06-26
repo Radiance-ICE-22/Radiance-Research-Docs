@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/zuoFMGSFoundationModel2024.md",
+                "file": "Knowledge Distillation.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "zuoFMGSFoundationModel2024"
+              "title": "Knowledge Distillation"
             }
           },
           {
-            "id": "a93f8e69e388ac15",
+            "id": "b1302242fea6d70f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/qinLangSplat3DLanguage.md",
-                "mode": "preview",
+                "file": "Papers/qinLangSplat3DLanguage2023.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "qinLangSplat3DLanguage"
+              "title": "qinLangSplat3DLanguage2023"
             }
           }
         ]
@@ -213,22 +213,27 @@
   },
   "active": "e0fe81fdd862bdab",
   "lastOpenFiles": [
-    "Papers/qinLangSplat3DLanguage.md",
-    "Papers/zuoFMGSFoundationModel2024.md",
-    "@qinLangSplat3DLanguage.md",
+    "Random Facts.md",
+    "SLAM.md",
+    "Traingle splatting.md",
+    "Vision Based Navigation.md",
     "Concept Map.canvas",
+    "Papers/zuoFMGSFoundationModel2024.md",
+    "Papers/attachments/Pasted image 20260626084419.png",
+    "templates/Zotero Paper Template.md",
+    "Papers/qinLangSplat3DLanguage2023.md",
+    "Papers/attachments/Pasted image 20260626080650.png",
+    "Papers/qinVINSMonoRobustVersatile2018.md",
+    "@qinLangSplat3DLanguage.md",
     "Dense SLAM.md",
     "Papers/pereraCrossJEPACrossModalJointEmbedding2025.md",
     "Papers/attachments/Pasted image 20260623201104.png",
     "Papers/attachments/Pasted image 20260623180152.png",
     "Papers/lecunPathAutonomousMachine.md",
-    "templates/Zotero Paper Template.md",
     "3D Reconstruction with Drones.md",
     "NeRF.md",
     "Himala-Literature review/3dgs with SLAM.md",
     "attachments/Pasted image 20260531170339.png",
-    "Random Facts.md",
-    "Papers/qinVINSMonoRobustVersatile2018.md",
     "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.46.52.excalidraw.svg",
     "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.46.52.excalidraw.md",
     "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.40.25.excalidraw.svg",
@@ -240,11 +245,8 @@
     "Gausian Splatting.md",
     "index.md",
     "Himala-Literature review/Reconstructions.md",
-    "Vision Based Navigation.md",
     "Himala-Literature review/attachments",
     "Himala-Literature review",
-    "Traingle splatting.md",
-    "SLAM.md",
     "Untitled.md",
     "ice-22-spalts.json",
     "Papers",
