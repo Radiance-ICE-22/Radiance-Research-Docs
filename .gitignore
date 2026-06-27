@@ -18,3 +18,6 @@ content/.obsidian/plugins/*/*
 
 # Keep the file that tells Obsidian which plugins are enabled
 !content/.obsidian/community-plugins.json
+
+# Ignore the workspace changes
+content/.obsidian/workspace.json
