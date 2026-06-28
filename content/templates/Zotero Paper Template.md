@@ -29,7 +29,7 @@ draft: true
 
 ### If yes, how, if not why?
 
-#### if yes, can it be further improved, OR can you use the same solution in different contexts , or in applications of the same context.?
+#### if yes, can it be further improved, OR can you use the same solution in different contexts , or in applications of the same context?
 
 #### if no, what can you learn from it? can the lessons learnt be applied in any way? may be re-experiment with tuning/re-adjusting the methods/changing the parameters etc.
 
