@@ -1,5 +1,5 @@
 ---
-title: "3DGS-LSR：Large-Scale Relocation for Autonomous Driving Based on 3D Gaussian Splatting"
+title: 3DGS-LSR：Large-Scale Relocation for Autonomous Driving Based on 3D Gaussian Splatting
 aliases:
   - "@lu3DGSLSRLargeScaleRelocationAutonomous"
 tags:
@@ -61,9 +61,18 @@ The architecture solves the problem through a multi-stage vision and rendering p
 ### Evaluation
 ![[Pasted image 20260621133122.png]]
 ## Questions & Answers
+**Q**: What is the problem statement?
+**A**: They need high accuracy localization for autonomous driving.
 
-Q: 
-A: 
+**Q**: Can you explain why 3DGS is need for this project?
+**A**: Their claim is that 3DGS provide high accuracy localization grater than the classical algorithms. 
+
+**Q**: On which part exactly does 3DGS improve the application, before this work, how it is handled?
+**A**: Before classical algorithms like RANSAC and PNP was used for localization, there claim is accuracy is not enough for autonomous driving. Those classical algorithms only use keypoints for localization. But when using 3DGS, the estimation is re-rendered and compare to finalize a perfectly fitting pose.
+
+**Q**: What advantage does 3DGS bring?
+**A**: High accuracy localization..
+
 - - -
 
 ## 🔗 Related to
