@@ -4,7 +4,7 @@ aliases:
   - "@qinLangSplat3DLanguage"
 tags:
   - 3d-representation
-draft: true
+draft: false
 ---
 
 > [!info] Paper Metadata
