@@ -23,15 +23,25 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Concept Map.canvas",
+                "file": "Research Gaps.canvas",
                 "viewState": {
-                  "x": -230,
-                  "y": -1230.5,
-                  "zoom": -1.01330908922889
+                  "x": -55,
+                  "y": 0,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Concept Map"
+              "title": "Research Gaps"
+            }
+          },
+          {
+            "id": "0aba3bc500512f73",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -206,7 +216,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,44 +233,47 @@
   },
   "active": "e5afb758911979bc",
   "lastOpenFiles": [
-    "Papers/qinLangSplat3DLanguage.md",
-    "Papers/qinVINSMonoRobustVersatile2018.md",
     "Papers/pereraCrossJEPACrossModalJointEmbedding2025.md",
-    "Papers/lecunPathAutonomousMachine.md",
-    "Papers/kerbl3DGaussianSplatting2023.md",
-    "templates/Zotero Paper Template.md",
-    "Papers/liLangSplatV2Highdimensional3D2025.md",
     "Vision Based Navigation.md",
-    "Knowledge Distillation.md",
-    "NeRF.md",
+    "Traingle splatting.md",
+    "SLAM.md",
     "Random Facts.md",
+    "NeRF.md",
+    "Knowledge Distillation.md",
+    "JEPA.md",
+    "Dense SLAM.md",
+    "3D Gaussian Splatting.md",
+    "Papers/qinVINSMonoRobustVersatile2018.md",
+    "Papers/qinLangSplat3DLanguage.md",
+    "Papers/liLangSplatV2Highdimensional3D2025.md",
+    "Papers/zhouFeature3DGSSupercharging2024.md",
+    "Papers/kerbl3DGaussianSplatting2023.md",
+    "Papers/lecunPathAutonomousMachine.md",
+    "Research Gaps.canvas",
+    "Concept Map.canvas",
+    "3D Reconstruction with Drones.md",
+    "Concepts/Palenoptic Function.md",
+    "Concepts/attachments/Pasted image 20260706144408.png",
+    "Concepts/attachments",
+    "Concepts/3D Gaussian Splatting.md",
+    "index.md",
+    "Concepts",
+    "Concepts/Random Facts.md",
+    "Concepts/NeRF.md",
+    "Concepts/Knowledge Distillation.md",
+    "Concepts/Dense SLAM.md",
+    "Concepts/JEPA.md",
+    "Concepts/SLAM.md",
     "Papers/attachments/Pasted image 20260624184125.png",
     "Papers/attachments/Pasted image 20260624173401.png",
     "Papers/attachments/Pasted image 20260624172548.png",
-    "Concept Map.canvas",
-    "3D Gaussian Splatting.md",
-    "3D Reconstruction with Drones.md",
-    "JEPA.md",
-    "3DGS for Streaming Map Reconstruction.md",
-    "3D Reconstruction with Repetitive Elements.md",
-    "3D Gaussian Splatting with Deferred Reflection.md",
-    "Collaborative SLAM with 3D Gaussian Splatting.md",
-    "Dense SLAM.md",
     "attachments/Pasted image 20260531170339.png",
     "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.46.52.excalidraw.svg",
-    "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.46.52.excalidraw.md",
     "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.40.25.excalidraw.svg",
-    "Papers/attachments/lecunPathAutonomousMachine 2026-06-02 11.40.25.excalidraw.md",
     "Papers/attachments/Pasted image 20260623201104.png",
     "Papers/attachments/Pasted image 20260623180152.png",
     "Papers/attachments/Pasted image 20260602140759.png",
-    "Papers/attachments/Pasted image 20260602140756.png",
     "Papers/attachments",
-    "LangSplat.md",
-    "SLAM.md",
-    "index.md",
-    "Traingle splatting.md",
-    "Excalidraw/Drawing 2026-03-09 15.52.50.excalidraw.md",
     "ice-22-spalts.json",
     "Papers",
     "templates",
