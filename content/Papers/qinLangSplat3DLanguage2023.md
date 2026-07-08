@@ -3,17 +3,15 @@ title: "LangSplat: 3D Language Gaussian Splatting"
 aliases:
   - "@qinLangSplat3DLanguage"
 tags:
-  - literature
-  - slam
-  - edge-computing
+  - 3d-representation
 draft: false
 ---
 
 > [!info] Paper Metadata
 > - **Citekey:** `@qinLangSplat3DLanguage`
 > - **Authors:** Minghan Qin, Wanhua Li, Jiawei Zhou, Haoqian Wang, Hanspeter Pfister
-> - **Year:** Error: `format` can only be applied to dates. Tried for format object
-> - **DOI/Link:** [](https://doi.org/)
+> - **Year:** 2023
+> - **DOI/Link:** [10.48550/arXiv.2312.16084](https://doi.org/10.48550/arXiv.2312.16084)
 
 ## 📌 One-Sentence Summary
 *What is the core contribution of this paper and how does it apply to our 3D Gaussian Splatting edge deployment architecture?*
@@ -23,6 +21,8 @@ draft: false
 ## 📝 Reading Notes & Architecture
 
 ![[Pasted image 20260624184125.png]]
+
+> **Multi-view inconsistency** across the rendering is addressed through **[[Multi-view Training  Process]]**. 
 
 ### Whats the problem they are trying to solve?
 
@@ -76,7 +76,7 @@ The **observation space** is the exact sequence of all 100,000 words in the book
 The **latent space** is describing the book using a few sliders: "Romance (1-10)," "Sci-Fi (1-10)," "Action (1-10)," and "Complexity (1-10)." You have compressed 100,000 words into just four numbers. If two books are close together in this 4D space, they have similar themes, even if their exact words are completely different.
 <!--ID: 1780225736401-->
 
-Q: Explain [[qinLangSplat3DLanguage|LangSplat]] research work 
+Q: Explain [[qinLangSplat3DLanguage2023|LangSplat]] research work 
 A:
 It focuses on creating a *3D language field* that allows users to interact with 3D scenes suing **open ended natural language**
 
