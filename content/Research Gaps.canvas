@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"1e43f359e9105b57","x":-480,"y":-40,"width":250,"height":60,"color":"1","type":"text","text":"## Visual Navigation through 3DGS"},
+		{"id":"716b3100f7895af5","x":-60,"y":-360,"width":215,"height":400,"type":"text","text":"### Direct Path Planning on 3DGS primitives\n***\nInstead of converting 3DGS to voxel/grid maps for planning, directly plan paths using Gaussian primitives. Key gap: Existing methods rasterize 3DGS to grids before planning, losing explicit geometric information. Opportunity: Develop collision checking and cost functions directly on Gaussian covariances for efficient planning.\n\nhttps://novix.science/search-v1/5192ee353e581cea4547d7a5c53f46a7?isNewSession=true&hadExplicitAgent=true&initialAgentName=Idea%20Agent"},
+		{"id":"26cefd316b047b5c","x":-480,"y":200,"width":250,"height":120,"color":"1","type":"text","text":"## 3D Gaussian Splatting with Language Understanding"},
+		{"id":"337dab115e9169cb","x":120,"y":160,"width":250,"height":200,"type":"text","text":"### Domain Specific Applications\n\nhttps://novix.science/search-v1/4eda6720ca257fec7ca148da6f054613?isNewSession=true&hadExplicitAgent=true&initialAgentName=Idea%20Agent"}
+	],
+	"edges":[
+		{"id":"4dd0bd8fb16dff0a","fromNode":"1e43f359e9105b57","fromSide":"right","toNode":"716b3100f7895af5","toSide":"left"},
+		{"id":"84c6194789de1f3d","fromNode":"26cefd316b047b5c","fromSide":"right","toNode":"337dab115e9169cb","toSide":"left"}
+	]
+}
