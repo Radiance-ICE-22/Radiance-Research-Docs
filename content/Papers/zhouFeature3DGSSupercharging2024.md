@@ -3,9 +3,6 @@ title: "Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Fe
 aliases:
   - "@zhouFeature3DGSSupercharging2024"
 tags:
-  - literature
-  - slam
-  - edge-computing
 draft: false
 ---
 
@@ -16,7 +13,7 @@ draft: false
 > - **DOI/Link:** [10.48550/arXiv.2312.03203](https://doi.org/10.48550/arXiv.2312.03203)
 
 ## 📌 One-Sentence Summary
-*What is the core contribution of this paper and how does it apply to our 3D Gaussian Splatting edge deployment architecture?*
+Foundational work on 3dgs based semantic understanding introduces knowledge distillation and feature embedding into 3DGS Pipeline
 
 ---
 
@@ -104,5 +101,5 @@ A: Extracting 3D **depth information** by comparing two or more views of the sam
 - - -
 
 ## 🔗 Related to
-- [[qinLangSplat3DLanguage]] takes an alternative approach to the same problem by focusing on 
+- [[qinLangSplat3DLanguage2023]] takes an alternative approach to the same problem by focusing on [[SAM]](segmentation) and distilling information into the 3D splats.
 

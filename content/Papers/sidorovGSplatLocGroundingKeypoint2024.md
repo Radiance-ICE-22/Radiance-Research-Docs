@@ -3,10 +3,7 @@ title: "GSplatLoc: Grounding Keypoint Descriptors into 3D Gaussian Splatting for
 aliases:
   - "@sidorovGSplatLocGroundingKeypoint2024"
 tags:
-  - literature
-  - slam
-  - edge-computing
-draft: true
+draft: false
 ---
 
 > [!info] Paper Metadata
@@ -42,7 +39,6 @@ They developed a unified, two-stage framework that tightly couples keypoints fea
 #### if yes, can it be further improved, OR can you use the same solution in different contexts , or in applications of the same context?
 There are some enhancement the author is suggesting.
 - **Eliminating floaters**: future work must focus on removing floaters (detached, semi-transparent noise Gaussians) from the 3DGS scene. floaters corrupt depth map estimation during the photometric warping phase.
-#### if no, what can you learn from it? can the lessons learnt be applied in any way? may be re-experiment with tuning/re-adjusting the methods/changing the parameters etc.
 
 
 ## Questions & Answers

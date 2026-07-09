@@ -14,7 +14,7 @@ draft: false
 > - **DOI/Link:** [10.48550/arXiv.2312.16084](https://doi.org/10.48550/arXiv.2312.16084)
 
 ## 📌 One-Sentence Summary
-*What is the core contribution of this paper and how does it apply to our 3D Gaussian Splatting edge deployment architecture?*
+The paper focuses on high performance 3D dimensional semantic understanding using **segmentation foundational models** to distill information into [[Concepts/3D Gaussian Splatting|3D Gaussian Splatting]] embeddings. 
 
 ---
 

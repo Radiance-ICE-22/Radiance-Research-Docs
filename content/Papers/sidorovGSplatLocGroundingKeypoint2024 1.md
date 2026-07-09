@@ -3,9 +3,6 @@ title: "GSplatLoc: Grounding Keypoint Descriptors into 3D Gaussian Splatting for
 aliases:
   - "@sidorovGSplatLocGroundingKeypoint2024"
 tags:
-  - literature
-  - slam
-  - edge-computing
 draft: true
 ---
 
