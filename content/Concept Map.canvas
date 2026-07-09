@@ -1,12 +1,18 @@
 {
 	"nodes":[
-		{"id":"84d7d670c8f3b62b","type":"file","file":"JEPA.md","x":-1180,"y":-1483,"width":160,"height":83,"color":"2"},
+		{"id":"84d7d670c8f3b62b","type":"file","file":"Concepts/JEPA.md","x":-1180,"y":-1483,"width":160,"height":83,"color":"2"},
 		{"id":"403f412c2a1cdbe0","type":"file","file":"Papers/pereraCrossJEPACrossModalJointEmbedding2025.md","x":-1220,"y":-1060,"width":400,"height":100},
 		{"id":"c4bb92b887a3a550","type":"text","text":"# 3D Representational Learning  ","x":-560,"y":-1520,"width":260,"height":139,"color":"1"},
 		{"id":"1037de96e3b82a1e","type":"file","file":"Papers/qinLangSplat3DLanguage2023.md","x":-200,"y":-1121,"width":400,"height":61},
-		{"id":"0fe540c4a12e1a13","type":"file","file":"3D Gaussian Splatting.md","x":360,"y":-1466,"width":400,"height":50,"color":"2"},
+		{"id":"0fe540c4a12e1a13","type":"file","file":"Concepts/3D Gaussian Splatting.md","x":360,"y":-1466,"width":400,"height":50,"color":"2"},
 		{"id":"093bd37462725a92","type":"file","file":"Papers/zuoFMGSFoundationModel2024.md","x":-200,"y":-1840,"width":424,"height":58},
-		{"id":"c1712a175ba80875","x":-740,"y":-2080,"width":279,"height":59,"color":"2","type":"text","text":"# Foundation Models"}
+		{"id":"c1712a175ba80875","type":"text","text":"# Foundation Models","x":-740,"y":-2080,"width":279,"height":59,"color":"2"},
+		{"id":"24467215edd478c1","type":"text","text":"# Simulation","x":760,"y":-1200,"width":250,"height":50,"color":"1"},
+		{"id":"077d0bbed4bc8c9a","type":"file","file":"Papers/lowSOUSVIDECooking2025.md","x":1080,"y":-1085,"width":400,"height":50},
+		{"id":"2a764d33bd107f39","type":"file","file":"Concepts/VisuoMotor.md","x":1240,"y":-1381,"width":240,"height":50,"color":"2"},
+		{"id":"16d917d2f6f2358e","x":610,"y":-1788,"width":400,"height":72,"type":"file","file":"Papers/sidorovGSplatLocGroundingKeypoint2024.md"},
+		{"id":"4407b382b8f5db92","x":1155,"y":-1788,"width":250,"height":60,"color":"1","type":"text","text":"# Localization"},
+		{"id":"fe282b968e41bacc","x":610,"y":-2040,"width":400,"height":88,"type":"file","file":"Papers/lu3DGSLSRLargeScaleRelocationAutonomous.md"}
 	],
 	"edges":[
 		{"id":"acdd9c08037e9a8f","fromNode":"84d7d670c8f3b62b","fromSide":"bottom","toNode":"403f412c2a1cdbe0","toSide":"top"},
@@ -15,6 +21,13 @@
 		{"id":"c3e1ceabef76a897","fromNode":"c4bb92b887a3a550","fromSide":"left","toNode":"403f412c2a1cdbe0","toSide":"right"},
 		{"id":"4c53a47ec37a9bc8","fromNode":"c4bb92b887a3a550","fromSide":"top","toNode":"093bd37462725a92","toSide":"left"},
 		{"id":"694b4831eddb288f","fromNode":"0fe540c4a12e1a13","fromSide":"top","toNode":"093bd37462725a92","toSide":"right"},
-		{"id":"359bf861a3161ed6","fromNode":"c1712a175ba80875","fromSide":"right","toNode":"093bd37462725a92","toSide":"top"}
+		{"id":"359bf861a3161ed6","fromNode":"c1712a175ba80875","fromSide":"right","toNode":"093bd37462725a92","toSide":"top"},
+		{"id":"392ce7c11d2d0ca0","fromNode":"0fe540c4a12e1a13","fromSide":"bottom","toNode":"24467215edd478c1","toSide":"top"},
+		{"id":"1b7130afce46eefd","fromNode":"24467215edd478c1","fromSide":"bottom","toNode":"077d0bbed4bc8c9a","toSide":"left"},
+		{"id":"4e5d94da70397fb1","fromNode":"2a764d33bd107f39","fromSide":"bottom","toNode":"077d0bbed4bc8c9a","toSide":"top"},
+		{"id":"e93216e87b3017ff","fromNode":"0fe540c4a12e1a13","fromSide":"top","toNode":"16d917d2f6f2358e","toSide":"bottom"},
+		{"id":"f0db5f166df2bebe","fromNode":"4407b382b8f5db92","fromSide":"left","toNode":"16d917d2f6f2358e","toSide":"right"},
+		{"id":"e3c2d66177d4ebce","fromNode":"16d917d2f6f2358e","fromSide":"top","toNode":"fe282b968e41bacc","toSide":"bottom"},
+		{"id":"1fd039ace1c805ff","fromNode":"4407b382b8f5db92","fromSide":"top","toNode":"fe282b968e41bacc","toSide":"right"}
 	]
 }

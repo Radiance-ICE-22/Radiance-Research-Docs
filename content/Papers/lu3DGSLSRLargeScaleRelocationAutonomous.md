@@ -1,12 +1,12 @@
 ---
 title: 3DGS-LSR：Large-Scale Relocation for Autonomous Driving Based on 3D Gaussian Splatting
-aliases:
-  - "@lu3DGSLSRLargeScaleRelocationAutonomous"
 tags:
   - literature
   - slam
   - edge-computing
-draft: true
+aliases:
+  - "@lu3DGSLSRLargeScaleRelocationAutonomous"
+draft: false
 ---
 
 > [!info] Paper Metadata
